@@ -154,7 +154,7 @@ GET /api/chart/suggestions?count=5
 
 ```mermaid
 flowchart LR
-    A[中文分析需求] --> B[读取 MySQL Schema]
+    A[分析需求] --> B[读取 MySQL Schema]
     B --> C[DeepSeek 生成图表与 SQL 计划]
     C --> D[校验 SQL]
     D --> E[只读事务执行查询]
